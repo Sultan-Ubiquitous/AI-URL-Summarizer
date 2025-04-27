@@ -1,0 +1,14 @@
+[project]
+name = "url-summarizer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=0.3.24",
+    "langchain-community>=0.3.22",
+    "langchain-groq>=0.3.2",
+    "streamlit>=1.44.1",
+    "validators==0.28.1",
+    "youtube-transcript-api>=1.0.3",
+]
